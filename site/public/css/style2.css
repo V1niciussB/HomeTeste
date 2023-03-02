@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik'; 
+    color: aliceblue;
+    background-color: #00204E;
+    overflow-x: hidden;
+}
+
+/* CABEÇALHO */
+
+
+.cabecalho {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+    position: fixed;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: white;
+}
+
+.cabecalho a:hover {
+    text-shadow: 0.03em 0.03em 0.3em white;
+    transition: 0.5s;
+}
+
+
+.logonavbar {
+    margin-left: 5rem;
+}
+
+.logonavbar img {
+    width: 50%;
+}
+
+.navbar {
+    margin-left: 30rem;
+}
+
+.barrnaveg {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.barrnaveg li {
+    font-size: 18px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.botaologin {
+    margin-right: 5rem;
+}
+
+.botaologin button {
+    border-radius: 3px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+}
+
+/* FIM DO CABEÇALHO */
+/* Banner */
+.corpobanner {
+    width: 100%;
+    height: 100px;
+}
+
+.bannerSlogan {
+    height: 600px;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.containerslogan {
+    display: flex;
+    flex-direction: row;
+}
+
+.containerslogan .ladoesquerdo {
+    width: 50%;
+    font-size: 50px;
+}
+
+.ladodireito {
+    width: 50%;
+}
+
+.efeito {
+    background: linear-gradient(23.03deg, #A7CBFE 3.23%, rgba(217, 217, 217, 0) 85.03%);
+    border-radius: 0px 97px 0px 258px;
+    width: 100%;
+}
+
+.ladoesquerdo p {
+    margin-top: 120px;
+}
+
+.ladoesquerdo button {
+    font-size: 20px;
+    color: white;
+    background: #50FF6B;
+    border: darkblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ladoesquerdo button:hover {
+    box-shadow: 0.03em 0.03em 0.5em #00EB25;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .2s ease;
+}
+
+
+.containerslogan .ladodireito {
+    width: 50%;
+    justify-content: end;
+
+}
+
+.containerslogan .ladodireito img {
+    height: 500px;
+    margin-left: 100px;
+}
+
+/* FIM DO BANNER */
+/* 1º CONTEÚDO DA PÁGINA */
+.sobreNosHome {
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #DDEBFF;
+    gap: 3rem;
+}
+
+.sobreNos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    gap: 1rem;
+    width: 35%;
+}
+
+.sobreNos h1 {
+    font-size: 60px;
+    color: #50FF6B;
+}
+
+.sobreNos p {
+    font-size: 25px;
+    color: black;
+}
+
+
+.sobreladoesquerdo{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.sobreNosHome img {
+    height: 480px;
+    margin-top: 90px;
+}
+
+/* FOOTER */
+.footer {
+    position: relative;
+    color: aliceblue;
+
+}
+
+.footer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+
+
+}
+
+.footer .logo {
+    width: 33.33%;
+    margin: auto;
+}
+
+.footer .links {
+    width: 33.33%;
+}
+
+.footer .links li {
+    list-style: none;
+}
+
+.footer .redesSociais {
+    width: 33.33%;
+}
+
+.footer .redesSociais li {
+    list-style: none;
+    margin: 0%;
+}
+
+.footer .redesSociais .conteudoRedesSoc {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.footer .redesSociais .conteudoRedesSoc img {
+    height: 40px;
+}
+
+.footer .redesSociais .conteudoRedesSoc li {
+
+    justify-content: space-between;
+
+}
+
+.footer img {
+    height: 70px;
+    align-items: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.barrinha {
+    margin-top: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    justify-content: center;
+    width: 90%;
+    border-radius: 5px;
+    border: 3px solid white;
+}
+
+.direitos {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+/* FIM DO FOOTER */
